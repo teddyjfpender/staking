@@ -12,7 +12,7 @@ use snforge_std::{declare, ContractClassTrait};
 use snforge_std::{test_address, start_cheat_caller_address, start_cheat_block_timestamp_global};
 use snforge_std::cheatcodes::events::{EventSpyTrait, EventsFilterTrait};
 
-use staking::interface::{
+use example::interface::{
     IToken, ITokenDispatcher, ITokenDispatcherTrait
 };
 
